@@ -77,7 +77,7 @@
 
   function setup() {
     // creating canvas.
-    createCanvas(displayWidth-100,displayHeight-150);
+    createCanvas(windowWidth, windowHeight);
 
    // creating background1.
     background1=createSprite(displayWidth/2,displayHeight/2-50,displayWidth*2,displayHeight);
@@ -426,8 +426,8 @@ earth.addImage(earthimage);
 
      
     // reseting backgrounds.
-    if(background1.x<0){
-      background1.x=background1.width;
+     if(background1.x < windowWidth / 2){
+     background1.x = (windowWidth +  background1image.width/2) - 20;
     }
   
     if(background2.x<0){
