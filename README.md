@@ -1,2 +1,2 @@
-# THE-SURVIVAL-OF-THE-EARTH-
-A GAME ON GLOBAL WARMING
+# p5.play-boilerplate
+Boiler plate for p5.play
